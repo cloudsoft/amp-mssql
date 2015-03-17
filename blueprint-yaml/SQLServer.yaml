@@ -1,0 +1,7 @@
+name: Microsoft SQL Server
+location: GCEWin
+services:
+- type: io.cloudsoft.mssql.brooklyn.SqlServerProfessional
+  name: Test Instance
+  brooklyn.config:
+    mssql.instanceName: TEST
